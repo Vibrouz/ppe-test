@@ -4,6 +4,8 @@ on:
 permissions:
   contents: read
 jobs:
+  piplyzer:
+    uses: Vibrouz/piplyzer/.github/workflows/piplyzer.yml@v0.2.0
   build:
     runs-on: ubuntu-latest
     steps:
